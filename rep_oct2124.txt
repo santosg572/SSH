@@ -1,0 +1,7 @@
+[INFO] White list: /home/inb/soporte/inb_cluster_whiteList.txt
+[INFO] timeout for a host to respond is 20 seconds
+
+[~~~~~~~~~~~~~~~~~ arwen ] ....WW...................................................OK
+[~~~~~~~~~~~~~~~~ austin ] ....WW...................................................OK
+[~~~~~~~~~~~~~~~~~ brown ] ....WW...................................................OK
+[~~~~~~~~~~~~~~ cannabis ]   cannabis is  whitelisted, will not check.
