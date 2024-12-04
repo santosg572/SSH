@@ -1,0 +1,557 @@
+1Interpolation and Approximation                 .
+1.1
+Introduction                        .
+1.2
+Approximation of a Function by Another Function       
+1.2.1
+Approximation Functions              
+1.2.2
+Polynomial Approximation              .
+1.3
+Determination of Interpolation Polynomials          
+1.3.1
+Calculation of the Interpolation Polynomial      
+1.3.2
+Newton Interpolation Polynomial           .
+1.3.3
+Lagrange Interpolation Polynomial          
+1.3.4
+Polynomial Interpolation with Regularly Spaced Points  .
+1.3.5
+Hermite Polynomials                
+1.3.6
+Chebyshev Polynomials and Irregularly Spaced Points  
+1.3.7
+Interpolation by Cubic Hermite Polynomial       .
+1.3.8
+Interpolation by Spline Functions           .
+1.3.9
+Interpolation by Parametric Splines          
+1.4
+Bézier Curves                       .
+1.5
+Discussion and Conclusion                 
+1.6
+Exercise Set                        .1
+1
+1
+2
+2
+4
+4
+5
+9
+11
+14
+16
+22
+25
+29
+32
+34
+35
+2Numerical Integration                      .
+2.1
+Introduction                        .
+2.2
+Newton and Cotes Closed Integration Formulas         .
+2.2.1
+Global Integration on Interval [a, b]          .
+2.2.2
+Integration on Subintervals              .
+2.3
+Open Newton and Cotes Integration Formulas         
+2.4
+Conclusions on Newton and Cotes Integration Formulas     
+2.5
+Repeated Integration by Dichotomy and Romberg’s Integration  
+2.6
+Numerical Integration with Irregularly Spaced Points      
+2.6.1
+Reminder on Orthogonal Polynomials         
+2.6.2
+Gauss–Legendre Quadrature             .
+2.6.3
+Gauss–Laguerre Quadrature             45
+45
+45
+46
+49
+50
+51
+52
+55
+55
+59
+63
+ixContents
+Contents
+2.6.4
+Gauss–Chebyshev Quadrature            
+2.6.5
+Gauss–Hermite Quadrature             
+Discussion and Conclusion                 
+Exercise Set                        .64
+64
+64
+65
+3Equation Solving by Iterative Methods              
+3.1
+Introduction                        .
+3.2
+Graeﬀe’s Method                     
+3.3
+Bernoulli’s Method                     .
+3.4
+Bairstow’s Method                     .
+3.5
+Existence of a Root of a Function               .
+3.6
+Bisection and Regula Falsi Methods              .
+3.6.1
+Bisection Method                  .
+3.6.2
+Regula Falsi Method                
+3.7
+Method of Successive Substitutions              .
+3.8
+Newton’s Method and Derived Methods            .
+3.8.1
+Newton’s Method                  .
+3.8.2
+Secant Method                   .
+3.9
+Wegstein’s Method                     .
+3.10 Aitken’s Method                      .
+3.11 Homotopy Method                     .
+3.11.1 Introduction                    .
+3.11.2 Continuation Method                
+3.12 Discussion and Conclusion                 
+3.13 Exercise Set                        .69
+69
+70
+71
+75
+78
+79
+79
+80
+82
+85
+85
+89
+90
+92
+95
+95
+95
+99
+99
+4Numerical Operations on Matrices                 107
+4.1
+Introduction                        . 107
+4.2
+Reminder About Matrices                  . 107
+4.3
+Reminder on Vectors                    . 109
+4.4
+Linear Transformations and Subspaces             111
+4.4.1
+Gershgorin Theorem                 113
+4.4.2
+Cayley–Hamilton Theorem and Consequences      . 114
+4.4.3
+Power Method                   . 116
+4.5
+Similar Matrices and Matrix Polynomials            118
+4.6
+Symmetric Matrices and Hermitian Matrices          . 118
+4.7
+Reduction of Matrices Under a Simple Form          . 123
+4.8
+Rutishauser’s LR Method                   124
+4.9
+Householder’s Method                    128
+4.10 Francis’s QR Method                    . 133
+4.11 Discussion and Conclusion                  144
+4.12 Exercise Set                        . 144
+2.7
+2.8
+xContents
+Contents
+5Numerical Solution of Systems of Algebraic Equations        149
+5.1
+Introduction                        . 149
+5.2
+Solution of Linear Triangular Systems             . 149
+5.3
+Solution of Linear Systems: Gauss Elimination Method      150
+5.4
+Calculation of a Matrix Determinant              157
+5.5
+Gauss–Jordan Algorithm                   158
+5.6
+LDLT Factorization                     162
+5.7
+Cholesky’s Decomposition                  162
+5.8
+Singular Value Decomposition (SVD)             . 164
+5.9
+Least Squares Method for Linear Overdetermined Systems     166
+5.10 Iterative Solution of Large Linear Systems (Jacobi and
+Gauss–Seidel)                       . 169
+5.11 Solution of Tridiagonal Linear Systems of Equations       . 173
+5.12 Solution of Nonlinear Systems: Newton–Raphson Method     174
+5.13 Solution of Nonlinear Systems by Optimization         . 176
+5.14 Discussion and Conclusion                  178
+5.15 Exercise Set                        . 178
+6Numerical Integration of Ordinary Diﬀerential Equations      . 189
+6.1
+Introduction                        . 189
+6.1.1
+Linear and Nonlinear Ordinary Diﬀerential Equations   190
+6.1.2
+Uniqueness of the Solution              . 191
+6.2
+Initial Value Problems                    191
+6.2.1
+One-Step Methods                  192
+6.2.2
+Multi-Step Methods                 . 209
+6.2.3
+Open Integration Formulas              . 210
+6.3
+Stability of Numerical Integration Methods           . 217
+6.4
+Stiﬀ Systems                        220
+6.5
+Diﬀerential–Algebraic Systems                . 221
+6.6
+Ordinary Diﬀerential Equations with Boundary Conditions    . 223
+6.7
+Discussion and Conclusion                  224
+6.8
+Exercise Set                        . 225
+7Numerical Integration of Partial Diﬀerential Equations       . 239
+7.1
+Introduction                        . 239
+7.2
+Some Examples of Physical Systems              239
+7.2.1
+Heat Transfer by Conduction             . 240
+7.2.2
+Mass Transfer by Diﬀusion              . 241
+7.2.3
+Wave Equation                   . 241
+7.2.4
+Laplace’s Equation                 . 242
+7.3
+Properties of Partial Diﬀerential Equations           . 243
+7.3.1
+Generalities                    . 243
+7.3.2
+Well-Posed Problem                 244
+7.3.3
+Classiﬁcation                    244
+7.3.4
+Characterization of the Solutions            245
+xiContentsContents
+7.4Method of Characteristics                  . 246
+7.4.1
+Linear First Order Partial Diﬀerential Equation      246
+7.4.2
+Nonlinear First Order Partial Diﬀerential Equation    . 253
+7.4.3
+Quasi-Linear Second Order Partial Diﬀerential Equation  254
+Finite Diﬀerence Method                   256
+7.5.1
+Introduction                    . 256
+7.5.2
+Discretization                    257
+Automatic Calculation of
+Derivatives
+         . 285
+␃
+␂ ␃
+␂ Partial
+          . 285
+7.6.1
+Calculation of ∂u and ∂u
+␄ ∂ x ␅0
+␄∂ x N␅
+2
+2
+7.6.2
+Calculation of ∂ u2 and ∂ u2
+         . 287
+∂x 0
+∂x N
+7.6.3
+Some Other Diﬀerentiation Schemes          . 289
+7.6.4
+Numerical Diﬀerentiation by Complex Numbers     . 291
+Method of Lines                      . 292
+7.7.1
+Case of Dirichlet Boundary Conditions         293
+7.7.2
+Case of Boundary Neumann Conditions         293
+7.7.3
+Application of the Method of Lines to the Simulation
+of a Heat Exchanger                 . 295
+Finite Diﬀerences on an Irregular Grid             299
+Solution of a Partial Diﬀerential Equation by Splines       300
+Spectral Methods                      304
+7.10.1 Method of Weighted Residuals             304
+7.10.2 Radial Basis Functions                306
+7.10.3 Polynomial Collocation for an Initial Value Ordinary
+Diﬀerential Equation                 314
+7.10.4 Method of Weighted Residuals for an Ordinary Diﬀerential
+Equation with Boundary Conditions          . 314
+7.10.5 Method of Weighted Residuals for a Partial Diﬀerential
+Equation                      320
+Moving Grid                        323
+7.11.1 Theory                       324
+7.11.2 Test on an Analytic Function             . 327
+7.11.3 Implementation in a Physical Problem         . 327
+7.11.4 Short Presentation of the General Framework      . 331
+7.11.5 Application to a Liquid Phase Chromatography,
+Approximation in the Equilibrium Case         331
+7.11.6 Application to a Liquid Phase Chromatography, Rigorous
+Treatment for the Case with LDF            332
+Finite Volume Method                    335
+7.12.1 Introduction                    . 335
+7.12.2 Mesh                       . 337
+7.12.3 Integration on any Control Volume           338
+7.12.4 Account of Boundary Conditions at Left        . 341
+7.12.5 Account of Boundary Conditions at Right        342
+7.12.6 Case of an Interface Between Two Solids of Diﬀerent
+Conductivities                   . 343
+7.5
+7.6
+7.7
+7.8
+7.9
+7.10
+7.11
+7.12
+xiiContents
+7.13
+7.14
+7.15
+7.16
+8
+Contents
+7.12.7 Numerical Solving                  345
+7.12.8 Two-Dimensional Problem              . 349
+7.12.9 Extension to Flows                 . 350
+7.12.10 Conservation Applied to a Control Volume       . 351
+7.12.11 SIMPLER Algorithm                . 352
+Finite Element Method                    353
+7.13.1 Step 1: Elements and Nodes              355
+7.13.2 Step 2: Functions of Polynomial Interpolation      . 356
+7.13.3 Steps 3–4: Determination of the Conductance Matrices and
+Nodal Flux, Determination by Assembling of the Global
+Conductance Matrix and the Global Equivalent Nodal Flux
+Vector                       359
+7.13.4 Convergence, Compatibility, Completeness       . 388
+7.13.5 Case of Transient Systems              . 389
+7.13.6 Heat Transfer and Fluid Transport in a Tube       . 396
+7.13.7 Flow in a Porous Medium               403
+7.13.8 Diﬀusion—Chemical Reaction            . 404
+7.13.9 Fluid Mechanics                   406
+7.13.10 Two-Dimensional Formulation             410
+7.13.11 Examples of 2D and 3D Simulations          . 413
+Boundary Element Method                  417
+7.14.1 Mathematical Preliminaries              418
+7.14.2 Potential Problems                  420
+7.14.3 Green’s Function Method               421
+7.14.4 Analytical-Numerical Boundary Element Method     428
+7.14.5 Boundary Element Method in 2D Heat Transfer     . 434
+Discussion and Conclusion                  440
+Exercise Set                        . 442
+Analytical Methods for Optimization                455
+8.1
+Introduction                        . 455
+8.2
+Mathematical Reminder                   . 455
+8.3
+Introduction                        . 456
+8.4
+Functions of One Variable                  . 457
+8.4.1
+Inﬁnite Interval                   457
+8.4.2
+Finite Interval                    461
+8.4.3
+Presence of Discontinuities              . 462
+8.5
+Functions of Several Variables                . 462
+8.5.1
+Inﬁnite Interval                   462
+8.5.2
+Finite Interval                    462
+8.5.3
+Presence of Discontinuities              . 463
+8.6
+Function Subject to Equality Constraints            . 463
+8.6.1
+Jacobi’s Method                   463
+8.6.2
+Lagrange Multipliers                 465
+8.6.3
+Signiﬁcation of Lagrange Multipliers          467
+8.6.4
+Conditions of Minimum               . 468
+xiiiContents
+Contents
+8.6.5
+8.7
+8.8
+8.9
+8.10
+8.11
+9
+Conditions of Minimum by the Projected Gradient in the
+Case of Equality Constraints             . 468
+Function Subject to Inequality Constraints           . 473
+8.7.1
+Use of Slack Variables                473
+8.7.2
+Karush–Kuhn–Tucker (KKT) Parameters        . 474
+8.7.3
+Conditions of Minimum by the Projected Gradient in the
+Case of Inequality Constraints             478
+Function Subject to Equality and Inequality Constraints      484
+8.8.1
+Setting of the Problem                . 484
+8.8.2
+Lagrange Duality                  . 486
+Sensitivity Analysis                     487
+Discussion and Conclusion                  488
+Exercise Set                        . 489
+Numerical Methods of Optimization                . 505
+9.1
+Introduction                        . 505
+9.2
+Functions of One Variable                  . 505
+9.2.1
+Bisection Method                  . 506
+9.2.2
+Newton’s Method                  . 507
+9.2.3
+Fibonacci’s Method                 . 508
+9.3
+Functions of Several Variables                . 512
+9.4
+Methods of Direct Search                  . 512
+9.4.1
+Simple One Variable Search              512
+9.4.2
+Simplex Method                   513
+9.4.3
+Acceleration Methods                . 514
+9.4.4
+Nelder–Mead Simplex                . 519
+9.4.5
+Box Complex                    522
+9.4.6
+Genetic Algorithm                  524
+9.5
+Gradient Methods                      529
+9.5.1
+Case of a Quadratic Function             . 529
+9.5.2
+Case of a Non-quadratic Function           . 532
+9.5.3
+Method of Steepest Descent              533
+9.5.4
+Search in a Given Direction s             . 535
+9.5.5
+Conjugate Gradient Method              539
+9.5.6
+Newton–Raphson Method               547
+9.5.7
+Quasi-Newton Method                551
+9.5.8
+Methods for the Sums of Squares            556
+9.5.9
+Gauss–Newton Method                557
+9.5.10 Levenberg–Marquardt Method             558
+9.5.11 Quasi-Newton Approximation             561
+9.5.12 Systems of Nonlinear Equations            . 563
+9.6
+Discussion and Conclusion                  563
+9.7
+Exercise Set                        . 563
+xivContents
+Contents
+10Linear Programming                       575
+10.1 Introduction                        . 575
+10.2 Formulation of the Problem Based on Examples         576
+10.2.1 Use of Slack Variables                576
+10.2.2 Use of Slack and Artiﬁcial Variables          . 578
+10.2.3 Conditions of Optimality               579
+10.3 Solving the Problem: Simplex Tableau             . 580
+10.3.1 Geometric Interpretation on Example 10.1        580
+10.3.2 Simplex Tableau with Slack and Artiﬁcial Variables    585
+10.4 Theoretical Solution                     588
+10.5 Case of Simultaneous Inequality and Equality Constraints     592
+10.6 Duality                          . 595
+10.6.1 Example of Duality                 . 596
+10.6.2 Demonstration of the Duality Theorem         . 596
+10.6.3 Demonstration of the Duality Theorem Based
+on the Lagrangian                  600
+10.7 Interior Point Methods                    604
+10.7.1 Karmarkar Projection Method             604
+10.7.2 Aﬃne Transformation                . 610
+10.8 Discussion and Conclusion                  614
+10.9 Exercise Set                        . 615
+11Quadratic Programming and Nonlinear Optimization        . 623
+11.1 Introduction                        . 623
+11.2 Quadratic Optimization, Karush–Kuhn–Tucker Conditions
+and Solution by the Simplex                 . 624
+11.2.1 First Presentation                  . 624
+11.2.2 Second Presentation                 624
+11.2.3 Solution Under the Form of a Simplex Problem      625
+11.3 Quadratic Optimization, Barrier Method            . 627
+11.4 Nonlinear Optimization by Successive Quadratic Programming   631
+11.4.1 Introduction                    . 631
+11.4.2 Notion of Feasible Region and Tangent Cone       631
+11.4.3 Successive Quadratic Programming (SQP)        633
+11.4.4 Speciﬁcities and Diﬃculties of the SQP Problem     637
+11.5 Discussion and Conclusion                  644
+11.6 Exercise Set                        . 644
+12Dynamic Optimization                      . 653
+12.1 Introduction                        . 653
+12.2 Problem Statement                     . 655
+12.3 Variational Method in the Mathematical Framework       . 657
+12.3.1 Variation of the Criterion               658
+12.3.2 Variational Problem Without Constraints:
+Fixed Boundaries                  . 659
+xvContents
+12.4
+12.5
+12.6
+12.7
+Contents
+12.3.3 Variational Problem with Constraints: General Case    660
+12.3.4 Hamilton–Jacobi Equation              . 663
+Dynamic Optimization in Continuous Time           665
+12.4.1 Variational Methods                 665
+12.4.2 Variation of the Criterion               666
+12.4.3 Euler Conditions                  . 668
+12.4.4 Weierstrass Condition and Hamiltonian
+Maximization                    670
+12.4.5 Hamilton–Jacobi Conditions and Equation        671
+12.4.6 Maximum Principle                 . 674
+12.4.7 Singular Arcs                    677
+12.4.8 Numerical Issues                  . 683
+Dynamic Programming (Discrete Time)            . 688
+12.5.1 Classical Dynamic Programming            688
+12.5.2 Hamilton–Jacobi–Bellman Equation          . 697
+Conclusion                         698
+Exercise Set                        . 698
+Index                                709
+xvi
+
+
