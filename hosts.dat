@@ -1,31 +1,31 @@
-#127.0.0.1	localhost
+127.0.0.1	localhost
 # Lab Merchant/B-15
-#172.24.60.129   mountcastle.inb.unam.mx mountcastle
+172.24.60.129   mountcastle.inb.unam.mx mountcastle
 172.24.220.87   evarts.inb.unam.mx      evarts
 #
-# Lab Barrios/-12
+# Lab Barrios/C-12
 172.24.220.91   jasper.inb.unam.mx      jasper
-#172.24.80.71    shaftoe.inb.unam.mx     shaftoe
+172.24.80.71    shaftoe.inb.unam.mx     shaftoe
 172.24.220.93   cannabis.inb.unam.mx    cannabis
 172.24.220.94   claustrum.inb.unam.mx   claustrum
 172.24.220.95   arwen.inb.unam.mx       arwen
 172.24.220.96   charcot.inb.unam.mx     charcot
 172.24.220.97   euler.inb.unam.mx       euler
 172.24.220.98   geminis.inb.unam.mx     geminis
-#172.24.80.83    drobo01.inb.unam.mx     drobo01
-#172.24.80.84    drobo02.inb.unam.mx     drobo02
+172.24.80.83    drobo01.inb.unam.mx     drobo01
+172.24.80.84    drobo02.inb.unam.mx     drobo02
 172.24.220.101  tournoux.inb.unam.mx    tournoux
 172.24.220.102  moca.inb.unam.mx        moca
-#172.24.80.85                            synology-labc12
+172.24.80.85                            synology-labc12
 #
-# Lab oncha/13
+# Lab Concha/C13
 172.24.220.111  fourier.inb.unam.mx     fourier
 172.24.220.112  rabi.inb.unam.mx        rabi
 172.24.220.113  penfield.inb.unam.mx    penfield
 172.24.220.114  lauterbur.inb.unam.mx	lauterbur
 172.24.220.115  tanner.inb.unam.mx      tanner
 172.24.220.116  tesla.inb.unam.mx       tesla
-#172.24.80.104   sesamo.inb.unam.mx      sesamo
+172.24.80.104   sesamo.inb.unam.mx      sesamo
 172.24.220.118  rhesus.inb.unam.mx      rhesus
 172.24.220.119  mansfield.inb.unam.mx   mansfield
 172.24.220.120  bloch.inb.unam.mx       bloch
@@ -38,8 +38,9 @@
 172.24.220.127  brown.inb.unam.mx	brown
 172.24.220.128  larmor.inb.unam.mx	larmor
 172.24.220.129  cajal.inb.unam.mx       cajal
+
 #
-# Lab aredes/D-11
+# Lab Paredes/D-11
 172.24.220.148  copula.inb.unam.mx      copula
 172.24.220.149  copula2.inb.unam.mx     copula2
 #
@@ -47,27 +48,34 @@
 172.24.220.153  giora.inb.unam.mx       giora
 172.24.220.154  austin.inb.unam.mx      austin
 172.24.220.155	tezca.inb.unam.mx       tezca
-#172.24.100.69                           zinana
+172.24.100.69                           zinana
+
 #
-# Lab braham-rellano/D-14
+# Lab Abraham-Arellano/D-14
 172.24.220.166  ridelim.inb.unam.mx     ridelim
 #
-# Lab Flor/-14
+# Lab Flor/C-14
 172.24.220.141  milagros.inb.unam.mx    milagros
 #
-# URR
+# URRA
 172.24.220.191  purcell.inb.unam.mx     purcell
-#172.24.140.48   bruker_console
-#172.24.140.49   sesamo8.inb.unam.mx     sesamo8
-#172.24.140.50	bruker7
+172.24.140.48   bruker_console
+172.24.140.49   sesamo8.inb.unam.mx     sesamo8
+172.24.140.50	bruker7
 # URM
 192.168.192.200 ogawa.inb.unam.mx       ogawa
-# Lab N Guadalupe_Gomar
+
+# Lab ENES Guadalupe_Gomar
 172.24.220.202  opuntia.enesjuriquilla.unam.mx  opuntia
 172.24.220.201  echinopsis.enesjuriquilla.unam.mx echinopsis
-# The following lines are desirable for Iv6 capable hosts
+
+# ENES Raul Paredes
+172.24.220.203	hanger.enesjuriquilla.unam.mx	hanger
+
+# The following lines are desirable for IPv6 capable hosts
 ::1     ip6-localhost ip6-loopback
 fe00::0 ip6-localnet
 ff00::0 ip6-mcastprefix
 ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
+
