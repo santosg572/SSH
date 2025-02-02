@@ -1,4 +1,5 @@
 https://atareao.es/tutorial/scripts-en-bash/arrays-en-bash/
+https://atareao.es/tutorial/scripts-en-bash/arrays-en-bash/
 https://linuxize.com/post/how-to-compare-strings-in-bash/
 https://www.imd.guru/sistemas/bash/manipulacion-de-cadenas.html
 https://kodekloud.com/blog/read-file-in-bash/
